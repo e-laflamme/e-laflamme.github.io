@@ -1,0 +1,34 @@
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 10vh;
+    padding: 25px var(--margin-inline);
+
+    .logo-container {
+        font-family: var(--logo-font);
+        font-size: 40px;
+    }
+}
+
+.main-menu nav {
+    display: flex;
+    align-items: center;
+
+    a {
+        font-size: 17px;
+        padding-left: 1.5vw;
+        font-weight: bolder;
+    }
+
+    .menu-right-logo {
+        height: 40px;
+        width: auto;
+    }
+
+
+}
+
+.main-menu a {
+    text-decoration: none;
+}

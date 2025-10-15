@@ -1,0 +1,58 @@
+@keyframes flyAcrossBanner {
+    0% {
+        transform: translate(75vw, 100vh) rotate(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+        transform: translate(70vw, 90vh) rotate(-5deg);
+    }
+    20% {
+        transform: translate(65vw, 75vh) rotate(-10deg);
+        opacity: 1;
+    }
+    30% {
+        transform: translate(60vw, 60vh) rotate(-15deg);
+        opacity: 1;
+    }
+    40% {
+        transform: translate(55vw, 45vh) rotate(-25deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(50vw, 50vh) rotate(-30deg);
+        opacity: 1;
+    }
+    65% {
+        transform: translate(45vw, 50vh) rotate(-15deg);
+        opacity: 1;
+    }
+    65% {
+        transform: translate(40vw, 45vh) rotate(20deg);
+        opacity: 1;
+    }
+    70% {
+        transform: translate(40vw, 40vh) rotate(50deg);
+        opacity: 1;
+    }
+    75% {
+        transform: translate(41vw, 35vh) rotate(70deg);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(42vw, 20vh) rotate(80deg);
+        opacity: 1;
+    }
+    85% {
+        transform: translate(45vw, 10vh) rotate(85deg);
+        opacity: 1;
+    }
+    95% {
+        transform: translate(55vw, -10vh) rotate(100deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(120vw, -30vh) rotate(120deg);
+        opacity: 0;
+    }
+}
